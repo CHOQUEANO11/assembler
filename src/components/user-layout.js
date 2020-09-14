@@ -11,12 +11,12 @@ export default class GuestLayout extends React.PureComponent {
           <div className="hero-head container">
             <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
               <div className="navbar-brand">
-                <span className="navbar-item">Hey, John</span>
+                <span className="navbar-item">Seja Bem Vindo, Pastor Fernando</span>
                 <Link className="navbar-item is--brand" to="/dashboard">
                   Dashboard
                 </Link>
                 <Link to="/logout" className="navbar-item is-pulled-right">
-                  Logout
+                  Sair
                 </Link>
               </div>
             </nav>
@@ -32,7 +32,7 @@ export default class GuestLayout extends React.PureComponent {
                     <div className="title has-text-primary">
                       <i className="fa fa-tachometer" />
                       {' '}
-                      Dashboard
+                      Area Administrativa
                     </div>
                   </div>
                 </div>
